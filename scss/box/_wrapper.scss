@@ -1,0 +1,41 @@
+.wrapper{
+    background-color: #014E56;
+    padding-bottom: 200px ;
+    padding-top: 135px;
+    background-image: url(../img/Group\ 1\ \(2\).png), url(../img/Group\ 2\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: bottom right 165px, left center;
+
+}
+.wrapper__inner{
+    font-style: normal;
+}
+.wrapper__list{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between; 
+}
+.wrapper__title {
+    font-weight: 700;
+    font-size: 75px;
+    font-style: normal;
+}
+.wrapper__title span{
+    color: #F67E7E;
+}
+.wrapper__text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 80px;
+    margin-left: 25px;
+    position: relative;
+}
+.wrapper__text::before{
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 5px;
+    top: -39px;
+    background-color: #79C8C7; 
+}

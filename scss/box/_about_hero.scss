@@ -1,0 +1,85 @@
+.hero{
+    background-color:#004047;
+    background-image: url(../img/Group\ 8\ \(6\).png), url(../img/Group\ 8\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    padding: 70px 0;
+}
+
+.hero__title{
+    margin-left: 370px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 40px;
+}
+.hero__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.hero__item{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+.hero__con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 220px;
+    background-color:#012F34;
+    flex-direction: column;
+    position: relative;
+}
+.hero__con1::after{
+    content: url(../img/Combined\ Shape.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    background-color: #F67E7E;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -26px;
+}
+
+.hero__con2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 220px;
+    background-color:#012F34;
+    flex-direction: column;
+    position: relative;
+}
+.hero__con2::after{
+    content: url(../img/Combined\ Shape\ \(2\).png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    background-color: #79C8C7;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -26px
+}
+.hero__twit img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.hero__item b{
+    font-size: 20px;
+    font-weight: 400;
+    color:#79C8C7;
+    margin: 10px 0;
+}

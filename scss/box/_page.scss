@@ -1,0 +1,60 @@
+.page{
+    background-color:#004047;
+    padding-top: 110px;
+    padding-bottom: 150px;
+    background-image: url(../img/Group\ org.png) , url(../img/Group\ org2.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+}
+.page__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page__title{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 44px;
+}
+.page__title span{
+    color: #79C8C7;
+}
+.page__list{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.page__item{
+    text-align: center;
+    font-style: normal;
+    margin-top: 50px;
+}
+.page__item::before {
+    content: url(../img/obb.png);
+    width: 67px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+}
+.page__info{
+    font-style: italic;
+    margin-top: 10px;
+}
+.page_subtitle{
+    color: #79C8C7;
+}
+.page__con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    text-align: center;
+    margin-top: 20px;
+}
+.page__info{
+    font-style: italic;
+    margin-bottom: 35px;
+}

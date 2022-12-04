@@ -1,0 +1,32 @@
+.main{
+    background-color:#014E56;
+    padding: 70px 0;
+    background-image: url(../about_img/Group\ 8\ \(5\).png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.main__list{
+    display: flex;
+    flex-grow: 1;
+}
+.main__title{
+    margin-right: 350px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.main__text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 55px;
+    position: relative;
+}
+.main__text::before{
+    content: '';
+    width: 45px;
+    height: 4px;
+    background-color:#F67E7E;
+    position: absolute;
+    top: -70px;
+}

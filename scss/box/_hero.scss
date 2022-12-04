@@ -1,0 +1,38 @@
+.hero{
+    background-color: #012F34;
+    padding-top: 70px;
+    padding-bottom: 170px;
+    background-image: url(../img/Group\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__title{
+    color: white;
+    font-size: 45px;
+    position: relative;
+}
+.hero__title::before{
+    position: absolute;
+    width: 60px;
+    height: 5px;
+    content: '';
+    background-color:#F67E7E;
+    top: -55px;
+}
+.hero__text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    width: 450px;
+}
+.hero__subtitle{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    color: #F67E7E;
+}

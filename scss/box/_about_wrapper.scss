@@ -1,0 +1,35 @@
+.wrapper{
+    background-color:  #F67E7E;
+    padding: 85px 0;
+    background-image: url(../about_img/Group\ 8\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.wrapper__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.wrapper__title{
+    font-weight: 700;
+    font-size: 29px;
+    color: #012F34;
+    line-height: 30px;
+}
+.wrapper__item{
+    padding: 11px 42px;
+    border: 2px solid #012F34;
+    border-radius: 35px;
+    transition: all ease 0.8s;
+}
+.wrapper__item:hover{
+    background-color:#012F34 ;
+    border: 2px solid #fff;
+}
+.wrapper__item a{
+    color:#012F34;
+}
+.wrapper__item a:hover{
+    color:#F67E7E;
+}
